@@ -1,0 +1,62 @@
+T5018 8587:687.168   SEGGER J-Link V6.55a (beta) Log File
+T5018 8587:687.224   DLL Compiled: Oct 31 2019 18:08:30
+T5018 8587:687.232   Logging started @ 2020-02-24 21:36
+T5018 8587:687.244 JLINK_SetWarnOutHandler(...)
+T5018 8587:687.252 - 0.012ms
+T5018 8587:687.263 JLINK_OpenEx(...)
+T5018 8587:690.375   Firmware: Energy Micro EFM32 compiled Apr 20 2016 12:17:23
+T5018 8587:698.197   Hardware: V1.00
+T5018 8587:698.220   S/N: 440052543
+T5018 8587:698.231   OEM: SEGGER
+T5018 8587:698.242   Feature(s): RDI
+T5018 8587:703.159   TELNET listener socket opened on port 19021
+T5018 8587:751.889   WEBSRV Starting webserver
+T5018 8587:752.114   WEBSRV Webserver running on local port 19080
+T5018 8587:752.132 - 64.875ms returns "O.K."
+T5018 8587:752.191 JLINK_GetEmuCaps()
+T5018 8587:752.199 - 0.030ms returns 0xB8EA5A33
+T5018 8587:752.210 JLINK_TIF_GetAvailable(...)
+T5018 8587:753.092 - 0.895ms
+T5018 8587:753.122 JLINK_SetErrorOutHandler(...)
+T5018 8587:753.132 - 0.014ms
+T5018 8587:753.159 JLINK_ExecCommand("ProjectFile = "D:\SynologyDrive\Documents\company\S3\Projects\commonus_interuptus_bootloader\MDK-ARM\JLinkSettings.ini"", ...). 
+T5018 8587:755.504 - 2.359ms returns 0x00
+T5018 8587:761.586 JLINK_ExecCommand("Device = STM32F401RETx", ...). 
+T5018 8587:765.612   Device "STM32F401RE" selected.
+T5018 8587:766.777 - 5.181ms returns 0x00
+T5018 8587:766.798 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T5018 8587:766.810 - 0.006ms returns 0x01
+T5018 8587:766.823 JLINK_GetHardwareVersion()
+T5018 8587:766.829 - 0.009ms returns 0x2710
+T5018 8587:766.838 JLINK_GetDLLVersion()  returns 65501
+T5018 8587:766.849 JLINK_GetFirmwareString(...)
+T5018 8587:766.855 - 0.009ms
+T5018 8587:784.577 JLINK_GetDLLVersion()  returns 65501
+T5018 8587:784.602 JLINK_GetCompileDateTime()
+T5018 8587:784.608 - 0.009ms
+T5018 8587:787.682 JLINK_GetFirmwareString(...)
+T5018 8587:787.696 - 0.016ms
+T5018 8587:790.747 JLINK_GetHardwareVersion()
+T5018 8587:790.760 - 0.015ms returns 0x2710
+T5018 8587:806.306 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T5018 8587:813.998 - 7.706ms returns 0x00
+T5018 8587:814.033 JLINK_SetSpeed(1000)
+T5018 8587:815.400 - 1.375ms
+T5018 8587:815.420 JLINK_GetIdData(pIdData)
+T5018 8587:826.320   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T5018 8587:832.195   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T5018 8587:925.423   Could not measure total IR len. TDO is constant high.
+T5018 8587:927.312   
+  ***** Error: 
+T5018 8587:927.372   STM32: Connecting to CPU via connect under reset failed.
+T5018 8588:065.085   TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFFFFFFFFFFF1
+T5018 8588:089.151   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T5018 8588:174.056   Could not measure total IR len. TDO is constant high.
+T5018 8588:175.216   
+  ***** Error: 
+T5018 8588:175.290   STM32: Connecting to CPU via connect under reset failed.
+T5018 8588:227.261 - 411.886ms
+T5018 8592:423.326 JLINK_Close()
+T5018 8592:438.153 - 14.844ms
+T5018 8592:438.177   
+T5018 8592:438.184   Closed
